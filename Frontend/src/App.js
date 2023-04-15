@@ -1,7 +1,12 @@
 import React from 'react';
+import LoginAndSignup from './components/loginAndSignup/LoginAndSignup/LoginAndSignup';
 
 const App = () => {
-	return <div>App</div>;
+	return (
+		<div>
+			<LoginAndSignup />
+		</div>
+	);
 };
 
 export default App;

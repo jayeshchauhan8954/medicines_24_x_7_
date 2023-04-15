@@ -1,0 +1,15 @@
+@import './../../../VariableForCSS.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.LoginAndSignup{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: var(--colorbg);
+  font-family: Arial,  sans-serif;
+}

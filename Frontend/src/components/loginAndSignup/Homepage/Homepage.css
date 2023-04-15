@@ -1,4 +1,30 @@
+@import './../../../VariableForCSS.css';
 *{
     margin: 0;
     padding: 0;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px var(--colorShadow);
+    background: var(--colorbg);
+    position: relative;
+}
+.homepage > .button{
+    background: var(--colorBtn);
+    border: 1px solid var(--color);
+    color: var(--color);
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+
 }
