@@ -1,0 +1,10 @@
+ a{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #181f1f;
+  }
+  
+  a:hover {
+    color: #141717; /* Facebook blue */
+  }
