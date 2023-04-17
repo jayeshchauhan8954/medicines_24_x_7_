@@ -29,7 +29,7 @@ const Signup = () => {
 				if (res.data.message === 'User already Registered') {
 					alert('User already registered');
 				} else {
-					alert(res.data.message);
+					alert('User Registered Successfully');
 					navigate('/');
 				}
 			} catch (error) {

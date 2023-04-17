@@ -33,7 +33,7 @@ const Login = ({ setLoginUser }) => {
 			})
 			.catch((error) => {
 				// Show an alert message to the user
-				alert(error.res.data.error);
+				alert('Invalid credential');
 			});
 	};
 

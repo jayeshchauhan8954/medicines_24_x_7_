@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 
 const app = express();
@@ -42,7 +42,7 @@ app.post('/signup', async (req, res) => {
 			return res.status(400).json({ message: 'User already Registered' });
 		}
 		// hash the password
-		const hashedPassword = await bcrypt.hash(password, 12);
+		const hashedPassword = await bcrypt.hash(password, 4);
 		const user = new User({
 			name: name,
 			email: email,
@@ -57,10 +57,6 @@ app.post('/signup', async (req, res) => {
 			email: user.email,
 			password: user.password
 		});
-		// giving details of user back
-		if (user) {
-			res.send({ message: 'User Registed Successfully', user: user });
-		}
 	} catch (error) {
 		console.log(error);
 		res.status(500).json({
