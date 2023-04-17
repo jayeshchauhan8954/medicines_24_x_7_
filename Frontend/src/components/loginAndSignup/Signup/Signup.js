@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './Signup.css';
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
+	const navigate = useNavigate();
 	const [ user, setUser ] = useState({
 		name: '',
 		email: '',
@@ -17,9 +20,29 @@ const Signup = () => {
 		});
 	};
 
+	const signup = async () => {
+		const { name, email, password, reEnterPassword } = user;
+		if (name && email && password && password === reEnterPassword) {
+			try {
+				const res = await axios.post('http://localhost:8080/signup', user);
+				console.log(res);
+				if (res.data.message === 'User already Registered') {
+					alert('User already registered');
+				} else {
+					alert(res.data.message);
+					navigate('/');
+				}
+			} catch (error) {
+				console.log(error);
+			}
+		} else {
+			alert('Invalid input');
+		}
+	};
+
 	return (
 		<div className="signup">
-			<h1>Login</h1>
+			<h1>Signup</h1>
 			<input type="text" name="name" value={user.name} placeholder="Enter your Name" onChange={handleChange} />
 			<input
 				type="email"
@@ -42,9 +65,13 @@ const Signup = () => {
 				placeholder="Re-enter your Password"
 				onChange={handleChange}
 			/>
-			<div className="button">Register</div>
+			<div className="button" onClick={signup}>
+				Register
+			</div>
 			<div>or</div>
-			<div className="button">Login</div>
+			<div className="button" onClick={() => navigate('/login')}>
+				Login
+			</div>
 		</div>
 	);
 };

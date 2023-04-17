@@ -3,7 +3,7 @@ import LoginAndSignup from './components/loginAndSignup/LoginAndSignup/LoginAndS
 
 const App = () => {
 	return (
-		<div>
+		<div className="App">
 			<LoginAndSignup />
 		</div>
 	);
