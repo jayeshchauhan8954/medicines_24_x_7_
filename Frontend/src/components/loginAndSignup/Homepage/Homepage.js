@@ -1,14 +1,17 @@
 import React from 'react';
 import './Homepage.css';
+import { Link } from 'react-router-dom';
 
 const Homepage = ({ setLoginUser }) => {
 	return (
 		<div>
 			<div className="homepage">
 				<h1>Hello homepage</h1>
-				<div className="button" onClick={() => setLoginUser({})}>
-					Logout
-				</div>
+				<Link to="/login" className="linkTag">
+					<div className="button" onClick={() => setLoginUser({})}>
+						Logout
+					</div>
+				</Link>
 			</div>
 		</div>
 	);

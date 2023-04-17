@@ -16,7 +16,11 @@
     background: var(--colorbg);
     position: relative;
 }
-.homepage > .button{
+
+.linkTag{
+    text-decoration: none;
+}
+.linkTag >  .button{
     background: var(--colorBtn);
     border: 1px solid var(--color);
     color: var(--color);
