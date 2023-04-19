@@ -4,7 +4,7 @@ export const carousel_1 = {
 			id: 1,
 			title: 'Medicine',
 			offer: 'FLAT 15% OFF',
-			image: require('./../Assets/carosel_assets/c-1/medicines.jpg')
+			image: require('./../Assets/carousel_assets/c-1/medicines.jpg')
 		},
 		{
 			id: 2,
