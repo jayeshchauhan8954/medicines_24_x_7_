@@ -199,30 +199,6 @@ export const carousel_10 = {
 			price: '₹600.00',
 			discount: '(20%)',
 			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
-		},
-		{
-			id: 25,
-			title: 'Dhootapapeshwar Shilapravang Special',
-			MRP: 'MRP ₹750.00',
-			price: '₹600.00',
-			discount: '(20%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
-		},
-		{
-			id: 26,
-			title: 'Dhootapapeshwar Shilapravang Special',
-			MRP: 'MRP ₹750.00',
-			price: '₹600.00',
-			discount: '(20%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
-		},
-		{
-			id: 27,
-			title: 'Dhootapapeshwar Shilapravang Special',
-			MRP: 'MRP ₹750.00',
-			price: '₹600.00',
-			discount: '(20%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
 		}
 	]
 };
