@@ -94,7 +94,7 @@ export const carousel_10 = {
 			MRP: 'MRP ₹270.00',
 			price: '₹229.50',
 			discount: '(15%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 14 baidyanath-nagpur-nirgundi-taila-50-ml-pack-of-2-2-1677245507.jpg')
 		},
 		{
 			id: 13,
@@ -112,14 +112,7 @@ export const carousel_10 = {
 			discount: '(25%)',
 			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 14 baidyanath-nagpur-nirgundi-taila-50-ml-pack-of-2-2-1677245507.jpg')
 		},
-		{
-			id: 14,
-			title: 'Oziva Plant Based Hair Vitamins 60 Capsules |',
-			MRP: 'MRP ₹899.00',
-			price: '₹853.96',
-			discount: '(5%)',
-			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 17 oziva-plant-based-hair-vitamins-60-capsules-hair-vitamins-for-hair-growth-2-1671742462.jpg')
-		},
+
 		{
 			id: 15,
 			title: 'Myfitness Peanut Butter Original Crunch',
@@ -134,7 +127,7 @@ export const carousel_10 = {
 			MRP: 'MRP ₹1490.00',
 			price: '₹655.60',
 			discount: '(56%)',
-			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day')
 		},
 		{
 			id: 17,
@@ -157,7 +150,7 @@ export const carousel_10 = {
 			MRP: 'MRP ₹785.00',
 			price: '₹588.75',
 			discount: '(25%)',
-			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 23 fixderma-shadow-spf-50cream-40gm-to-protect-broad-spectrum-2-1653898640.jpg')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 22 baidyanath-nagpur-vita-ex-gold-plus-stamina-booster-20-capsules-2-1671744945.jpg')
 		},
 		{
 			id: 20,
@@ -182,7 +175,7 @@ export const carousel_10 = {
 			MRP: 'MRP ₹399.00',
 			price: '₹275.31',
 			discount: '(31%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 25 sirona-reusable-size-m-menstrual-cup-2-1678861526.jpg')
 		},
 		{
 			id: 23,
@@ -190,7 +183,7 @@ export const carousel_10 = {
 			MRP: 'MRP ₹775.00',
 			price: '₹697.31',
 			discount: '(10%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 26 dhootapapeshwar-swamala-compound-500g-2-1641791548.jpg')
 		},
 		{
 			id: 24,
@@ -198,7 +191,15 @@ export const carousel_10 = {
 			MRP: 'MRP ₹750.00',
 			price: '₹600.00',
 			discount: '(20%)',
-			image: require('../Assets/Carousel_assets/c-10  Featured Brands part 2')
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 27 dhootapapeshwar-shilapravang-special-30-tablets-2-1671742251.jpg')
+		},
+		{
+			id: 25,
+			title: 'Oziva Plant Based Hair Vitamins 60 Capsules |',
+			MRP: 'MRP ₹899.00',
+			price: '₹853.96',
+			discount: '(5%)',
+			image: require('../Assets/Carousel_assets/c-10 Deals of the Day/img 17 oziva-plant-based-hair-vitamins-60-capsules-hair-vitamins-for-hair-growth-2-1671742462.jpg')
 		}
 	]
 };
