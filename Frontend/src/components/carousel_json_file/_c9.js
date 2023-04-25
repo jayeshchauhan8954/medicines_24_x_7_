@@ -54,42 +54,42 @@ export const carousel_9 = {
 		},
 		{
 			id: 11,
-			title: 'Friends',
+			title: 'Glucon-D',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 11 Glucon d.jpg')
 		},
 		{
 			id: 12,
-			title: 'Glucon-D',
+			title: 'Groviva',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 12 98de77fb574-Groviva.jpg')
 		},
 		{
 			id: 13,
-			title: 'Groviva',
+			title: 'Teddy',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 13 f9d13fa5364-Teddy.jpg')
 		},
 		{
 			id: 14,
-			title: 'Teddy',
+			title: 'Contour',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 14 f9536c55ef1-App.jpg')
 		},
 		{
 			id: 15,
-			title: 'Contour',
+			title: 'Upglam',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 15 9ce464f0f3f-upglam.jpg')
 		},
 		{
 			id: 16,
-			title: 'Upglam',
+			title: 'LivEasy',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 16 1151b7d7c0e-LivEasy-min.png')
 		},
 		{
 			id: 17,
-			title: 'LivEasy',
+			title: 'Huggies',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 17 201210bc27d-App_Huggies.jpg')
 		},
 		{
 			id: 18,
-			title: 'Huggies',
+			title: 'Friends',
 			image: require('../Assets/Carousel_assets/c-9 Featured Brands/img 18 5fd66ffb18a-Good-Skyn.jpg')
 		}
 	]
