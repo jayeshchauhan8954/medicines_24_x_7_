@@ -8,19 +8,17 @@ import ProductCard from './ProductCard_1';
 const handleDragStart = (e) => e.preventDefault();
 
 const Slider1 = () => {
-	const items = carousel_1.carousel.map((carousel) => (
-		<ProductCard key={carousel.id} carousel={carousel} handleDragStart={handleDragStart} />
-	));
+	const items = carousel_1.carousel.map((carousel) => <ProductCard key={carousel.id} carousel={carousel} />);
 
 	return (
 		<div>
 			<AliceCarousel
 				activeIndex={5}
 				animationDuration={600}
-				// autoPlay
+				autoPlay
 				touchTracking
-				// infinite
-				// disableButtonsControls
+				infinite
+				disableButtonsControls
 				disableDotsControls
 				responsive={{ 0: { items: 6 } }}
 				mouseTracking

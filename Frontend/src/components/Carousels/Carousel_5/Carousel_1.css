@@ -1,0 +1,56 @@
+.alice-carousel__prev-btn-item {
+	position: absolute;
+	left: -23px;
+	top: 61px;
+	cursor: pointer;
+	padding: 5px;
+	margin: 0;
+	color: #fff;
+	cursor: pointer;
+	transform: translateY(-50%);
+	z-index: 2;
+	background-color: rgb(36, 36, 38);
+	width: 35px;
+	height: 35px;
+	border: 0px;
+	border-radius: 50%;
+}
+
+.alice-carousel__next-btn-item {
+	position: absolute;
+	right: -25px;
+	top: 61px;
+	cursor: pointer;
+	padding: 5px;
+	margin: 0;
+	color: #fff;
+	cursor: pointer;
+	transform: translateY(-50%);
+	z-index: 2;
+	background-color: rgb(36, 36, 38);
+	width: 35px;
+	height: 35px;
+	border: 0px;
+	border-radius: 50%;
+}
+.alice-carousel__prev-btn-item:hover,
+.alice-carousel__next-btn-item:hover {
+	color: white;
+}
+
+.alice-carousel {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	width: 94%;
+	/* margin: auto; */
+	direction: ltr;
+}
+
+.alice-carousel__stage-item {
+	margin-left: 5px;
+}
+
+.alice-carousel__stage {
+	margin-left: 110px;
+}
